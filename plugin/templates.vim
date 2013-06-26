@@ -144,7 +144,7 @@ function <SID>TExpandVars()
 	let l:email = exists("g:email") ? g:email : (l:user . "@" . l:hostn)
 	let l:guard = toupper(substitute(l:filec, "[^a-zA-Z0-9]", "_", "g"))
 	let l:class = substitute(l:filen, "\\([a-zA-Z]\\+\\)", "\\u\\1\\e", "g")
-
+    let l:pyver = system("python -c \"from __future__ import print_function;import sys; print(sys.version.split()[0],end='')\"")
 	" Finally, perform expansions
 	call <SID>TExpand("DAY",   l:day)
 	call <SID>TExpand("YEAR",  l:year)
@@ -160,6 +160,7 @@ function <SID>TExpandVars()
 	call <SID>TExpand("HOST",  l:hostn)
 	call <SID>TExpand("GUARD", l:guard)
 	call <SID>TExpand("CLASS", l:class)
+	call <SID>TExpand("PYVER", l:pyver)
 endfunction
 
 " }}}2

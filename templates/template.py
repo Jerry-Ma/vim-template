@@ -1,11 +1,9 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# vim:fenc=utf-8
-#
-# Copyright © %YEAR% %USER% <%MAIL%>
-#
-# Distributed under terms of the MIT license.
-
+# Create Date    :  %FDATE%
+# Python Version :  %PYVER%
+# Git Repo       :  https://github.com/Jerry-Ma
+# Email Address  :  jerry.ma.nk@gmail.com
 """
-%HERE%
+%FFILE%%HERE%
 """

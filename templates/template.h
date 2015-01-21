@@ -1,13 +1,13 @@
 /*
- * %FFILE%
- * Copyright (C) %YEAR% %USER% <%MAIL%>
- *
- * Distributed under terms of the MIT license.
+ * Create Date    :  %FDATE%
+ * Python Version :  %PYVER%
+ * Git Repo       :  https://github.com/Jerry-Ma
+ * Email Address  :  jerry.ma.nk@gmail.com
  */
 
-#ifndef __%GUARD%__
-#define __%GUARD%__
+#ifndef %GUARD%
+#define %GUARD%
 
 %HERE%
 
-#endif /* !__%GUARD%__ */
+#endif /* !%GUARD% */

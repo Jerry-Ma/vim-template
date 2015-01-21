@@ -1,8 +1,8 @@
 /*
- * %FFILE%
- * Copyright (C) %YEAR% %USER% <%MAIL%>
- *
- * Distributed under terms of the MIT license.
+ * Create Date    :  %FDATE%
+ * Python Version :  %PYVER%
+ * Git Repo       :  https://github.com/Jerry-Ma
+ * Email Address  :  jerry.ma.nk@gmail.com
  */
 
 #include "%FILE%.h"

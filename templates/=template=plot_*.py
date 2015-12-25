@@ -18,7 +18,7 @@ import mympl
 
 if __name__ == '__main__':
 
-    canvas = mplcanvas.CanvasOne(
+    canvas = mympl.CanvasOne(
         width=mympl.emulateapj,
         aspect=0.618,
         scale=1,

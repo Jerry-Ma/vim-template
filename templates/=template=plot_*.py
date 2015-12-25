@@ -20,5 +20,13 @@ if __name__ == '__main__':
 
     canvas = mplcanvas.CanvasOne(
         width=mympl.emulateapj,
+        aspect=0.618,
+        scale=1,
+        usetw=False,
         )
     fig, (ax, ) = canvas.parts()
+
+    canvas.save_or_show(name,
+                        bbox_inches='tight',
+                        pad_inches=0,
+                        )

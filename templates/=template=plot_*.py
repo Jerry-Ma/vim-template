@@ -1,13 +1,4 @@
 #! /usr/bin/env python
-# -*- coding: utf-8 -*-
-# Create Date    :  %FDATE%
-# Python Version :  %PYVER%
-# Git Repo       :  %GITHUB%
-# Email Address  :  %MAIL%
-"""
-%FFILE%%HERE%
-"""
-
 from __future__ import division
 import numpy as np
 
